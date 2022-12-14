@@ -32,5 +32,5 @@ int SumOfElements(int[] array) //Функция подсчёта суммы эл
 
 int[] arr1 = FillArray(10, 1, 200); //Заполняем массив функцией, в которой передаём параметры размера массива, допустим, size = 10, начальное число массива 1, последнее 200
 int[] arr2 = FillArray(10, -100, 100); //Заполняем массив функцией, в которой передаём параметры размера массива, допустим, size = 10, начальное число массива -100, последнее 100
-Console.WriteLine($"[{string.Join(", ", arr1)}] -> {SumOfElements(arr1)}");
-Console.WriteLine($"[{string.Join(", ", arr2)}] -> {SumOfElements(arr2)}");
+Console.WriteLine($"[{string.Join(", ", arr1)}] -> {SumOfElements(arr1)}"); //Выводим на экран с положительными числами, как в примере из задания
+Console.WriteLine($"[{string.Join(", ", arr2)}] -> {SumOfElements(arr2)}"); //Выводим на экран с отрицательными числами, как в примере из задания
